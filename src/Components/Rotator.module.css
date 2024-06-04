@@ -1,0 +1,12 @@
+.Rotator {
+    scale: 0;
+    /* rotate: 100deg; */
+    transform: perspective(6.5cm);
+    transition: 0.8s ease-out;
+}
+
+.Rotator.visible {
+    scale: 1;
+    transform: perspective(0cm);
+    /* rotate: 0deg; */
+}

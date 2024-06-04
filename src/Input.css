@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scrollbar-color: #6db7f0 #f4f4f4;
+    transition: 500ms ease-out;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.animate-spinSlow {
+    animation: spin 10s linear infinite;
+}
+
+.introAnimation{
+    animation: intro 1.8s ease-out;
+}
+
+@keyframes intro {
+    0%,40%{
+        scale: 0;
+        rotate: 100deg;
+    }
+    100%{
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.introFade {
+    animation: introFade 3s ease-out;
+}
+
+@keyframes introFade {
+    0%,60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
