@@ -3,10 +3,17 @@ import { Children, useEffect, useRef, useState } from 'react';
 const useIntersectionObserver = (options) => {
     const containerRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const [hasIntersectedOnce, setHasIntersectedOnce] = useState(false);
 
     useEffect(() => {
         const observer = new IntersectionObserver(([entry]) => {
-            setIsVisible(entry.isIntersecting);
+            // use this to animate all time
+            // setIsVisible(entry.isIntersecting);
+            if (!hasIntersectedOnce && entry.isIntersecting) {
+                setIsVisible(true);
+                setHasIntersectedOnce(true); // Set hasIntersectedOnce to true after the first intersection
+                observer.unobserve(entry.target); // Stop observing the target element
+            }
         }, options);
 
         const currentRef = containerRef.current;

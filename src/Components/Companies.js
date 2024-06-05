@@ -13,9 +13,9 @@ import Span from './Span';
 
 const Companies = () => (
     <>
-        <div className="px-40 py-32 flex gap-8">
+        <div className="max-w-screen-xl px-10 mx-auto py-32 flex flex-col lg:flex-row gap-8">
             {/* <Fader> */}
-                <div className="w-[400px] h-40 text-3xl font-semibold">
+                <div className="lg:w-[400px] h-40 text-3xl font-semibold">
                     More than 100 companies internationally <Span>place their trust in us.</Span>
                 </div>
             {/* </Fader> */}
@@ -52,10 +52,10 @@ const Companies = () => (
                 </Fader>
             </div>
         </div>
-        <div className='grid grid-cols-2 gap-8 px-40 py-44'>
+        <div className='grid lg:grid-cols-2 gap-8 gap-y-12 max-w-screen-xl px-10 mx-auto py-20 lg:py-44'>
             {/* <Fader> */}
                 <div className='flex flex-col justify-center'>
-                    <div className='text-[2rem] font-semibold pb-16'>Check out our range of social media <Span>marketing options.</Span></div>
+                    <div className='text-[2rem] font-semibold pb-8 lg:pb-16'>Check out our range of social media <Span>marketing options.</Span></div>
                     <Button>Learn More</Button>
                 </div>
             {/* </Fader> */}
