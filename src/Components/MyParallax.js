@@ -1,10 +1,10 @@
 import { Parallax, Background } from 'react-parallax';
 
 
-const MyParallax = ({children, image}) => (
-    <Parallax strength={400} className='relative h-screen snap-center'>
-        <Background className='w-screen h-screen'>
-            <img src={image} alt='' className='w-screen object-cover scale-110'/>    
+const MyParallax = ({children, image, className}) => (
+    <Parallax strength={50} className={className}>
+        <Background className={className}>
+            <img src={image} alt='' className='w-full object-cover scale-110'/>    
         </Background>
         {children}
     </Parallax>
