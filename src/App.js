@@ -6,6 +6,9 @@ import Work from "./Components/Work.js";
 import MyCaro from "./Components/MyCaro.js";
 import ListGrid from "./Components/ListGrid.js";
 import Blog from "./Components/Blog.js";
+import Beta from "./Components/Beta.js";
+import Footer from "./Components/Footer.js";
+
 // import TestimonalsSlider from "./Components/TestimonalsSlider.js";
 
 function App() {
@@ -20,7 +23,8 @@ function App() {
       <MyCaro />
       <ListGrid />
       <Blog />
-      <div style={{ height: '100vh' }}></div>
+      <Beta />
+      <Footer />
     </>
   );
 }

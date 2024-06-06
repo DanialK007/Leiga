@@ -19,7 +19,7 @@ const ListGrid = () => (
                     <div>> Adaptive testing reporting</div>
                 </div>
                 </Fader>
-                <div className="flex gap-8">
+                <div className="flex flex-col items-start lg:flex-row gap-8">
                     <a href="#" className="shadow flex hover:-translate-y-1 duration-300 items-center gap-2 border text-[1.1rem] border-gray-100 font-semibold py-4 px-6 rounded-full">
                         <img src={apple} alt="" className="h-6" />
                         Download iOS
