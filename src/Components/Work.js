@@ -21,14 +21,18 @@ const Work = () => (
                 <div className="h-[200px] lg:w-[580px] lg:h-full">
                     <Fader>
                         <MyParallax image={img1} className="w-[280px] h-[200px] lg:w-[580px] lg:h-[400px]">
-                            {/* <div>HEllO</div> */}
+                            <div className='w-full h-[200px] lg:h-[400px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
+                                Colourfull Journey
+                            </div>
                         </MyParallax>
                     </Fader>
                 </div>
                 <div className="h-[200px] lg:w-[500px] lg:h-full flex justify-end lg:items-end">
                     <Fader>
                         <MyParallax image={img2} className="w-[300px] h-[300px] lg:w-[580px] lg:h-[400px]">
-                            {/* <img src={img2} alt="" className="w-full"/> */}
+                            <div className='w-full h-[300px] lg:h-[400px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
+                                Dreamy Visions
+                            </div>
                         </MyParallax>
                     </Fader>
                 </div>
@@ -37,22 +41,28 @@ const Work = () => (
                 <div className="h-[200px] lg:w-[450px] lg:h-full lg:flex items-end">
                     <Fader>
                         <MyParallax image={img4} className="h-[200px] w-[300px] lg:w-[460px] lg:h-[400px]">
-                            {/* <img src={img4} alt="" className="w-full"/> */}
+                            <div className='w-full h-[200px] lg:h-[300px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-5xl flex items-center justify-center z-20'>
+                            Imiginary Realms
+                            </div>
                         </MyParallax>
                     </Fader>
                 </div>
                 <div className=" h-[200px] lg:w-[620px] lg:h-full flex justify-end lg:block">
-                <Fader>
-                    <MyParallax image={img3} className="h-[200px] w-[300px] lg:w-[650px] lg:h-[420px]">
-                        {/* <img src={img3} alt="" className="w-full"/> */}
-                    </MyParallax>
-                </Fader>
+                    <Fader>
+                        <MyParallax image={img3} className="h-[200px] w-[300px] lg:w-[650px] lg:h-[420px]">
+                            <div className='w-full h-[200px] lg:h-[420px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
+                                Playful Strokes
+                            </div>
+                        </MyParallax>
+                    </Fader>
                 </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-between items-center py-10 h-[400px] lg:h-[340px] lg:lg:h-[800px] lg:p-32">
                 <Fader>
                     <MyParallax image={img5} className="w-[320px] h-[300px] lg:w-[1000px] lg:h-[600px]">
-                        {/* <img src={img5} alt="" className="w-full"/> */}
+                        <div className='w-full h-[300px] lg:h-[600px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-8xl flex items-center justify-center z-20'>
+                            Whimsy Tales
+                        </div>
                     </MyParallax>
                 </Fader>
             </div>

@@ -48,7 +48,7 @@ const WhatWeDo = () => (
                 </Fader>
             </div>
             <div className="text-center lg:pt-20">
-                <div className="text-2xl lg:text-3xl font-semibold">We have analye the data and have compelling</div>
+                <div className="text-2xl lg:text-3xl font-semibold">We have analyse the data and have compelling</div>
                 <div className="text-2xl lg:text-3xl font-semibold"><Span>statics to share.</Span></div>
             </div>
             <div className='grid lg:grid-cols-3 gap-y-10 py-10 lg:py-16 text-center font-semibold'>

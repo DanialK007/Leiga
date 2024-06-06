@@ -2,7 +2,7 @@
     scale: 0;
     /* rotate: 100deg; */
     transform: perspective(6.5cm);
-    transition: 0.8s ease-out;
+    transition: 1.4s ease-out;
 }
 
 .Rotator.visible {
