@@ -7,7 +7,7 @@ const Footer = () => (
     <>
         <div className="py-10">
             <div className="max-w-screen-xl mx-auto">
-                <div className="grid grid-cols-4 p-10">
+                <div className="grid lg:grid-cols-4 p-10">
                     <div className="col-span-3">
                         <div className="uppercase font-semibold border-2 border-black rounded-s-full rounded-e-full me-auto inline-block py-2 px-4">Vist us</div>
                         <div className="grid lg:grid-cols-3 gap-10 pe-32 py-10">
@@ -45,7 +45,7 @@ const Footer = () => (
                         </div>
                     </div>
                 </div>
-            <div className='px-10 font-semibold flex justify-between items-center'>
+            <div className='px-10 font-semibold flex flex-col-reverse lg:flex-row justify-between gap-y-2 lg:items-center'>
                 <div className='text-sm'>© 2024 - All rights reserved. Design by Flowmance. Code by Danial.</div>
                 <div className='text-lg'>Leiga.Inc</div>
             </div>

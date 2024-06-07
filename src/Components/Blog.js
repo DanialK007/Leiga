@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Span from "./Span";
+import Fader from "./Fader";
 import blog1 from '../Image/blog1.png';
 import blog2 from '../Image/blog2.png';
 import blog3 from '../Image/blog3.png';
@@ -40,12 +41,14 @@ const Blog = () => (
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
                 {
                     blogs.map((blog, index) => (
+                        <Fader>
                         <div key={index} className="group flex flex-col py-10 cursor-pointer">
                             <img src={blog.image} alt="blog" className="w-full group-hover:opacity-60" />
                             <div className="font-semibold my-5 p-1 px-3 border-2 border-black rounded-s-full rounded-e-full me-auto">{blog.catagory}</div>
                             <div className="text-3xl font-semibold">{blog.title}</div>
                             <div className="text-black/70 text-lg font-semibold py-5">{blog.date}</div>
                         </div>
+                        </Fader>
                     ))
                 }
             </div>

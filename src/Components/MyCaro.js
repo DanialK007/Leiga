@@ -35,8 +35,8 @@ const Companies = [
 
 const MyCaro = () => (
     <>
-        <div className="p-20">
-            <div className="text-[2.5rem] font-semibold px-10">Trusted by 4,000 <Span>clients world wide</Span></div>
+        <div className="text-3xl lg:text-[2.5rem] text-center font-semibold lg:px-10">Trusted by 4,000 <Span>clients world wide</Span></div>
+        <div className="p-10 lg:p-20">
             <Fader>
             <div className="grid lg:grid-cols-3 gap-8 py-10">
                 {
