@@ -9,7 +9,7 @@ const ListGrid = () => (
         <div className="max-w-screen-xl px-10 mx-auto grid lg:grid-cols-2 gap-20">
             <div className="flex justify-center flex-col">
                 <Fader>
-                <div className="text-4xl font-semibold">Artificial Intelligence solutions that deliver <Span>remarkable success.</Span></div>
+                <div className="text-3xl lg:text-4xl font-semibold">Artificial Intelligence solutions that deliver <Span>remarkable success.</Span></div>
                 </Fader>
                 <Fader>
                 <div className="flex flex-col gap-5 py-10 font-semibold">
@@ -30,7 +30,7 @@ const ListGrid = () => (
                     </a>
                 </div>
             </div>
-            <div>
+            <div className="scale-110 lg:scale-100">
                 <img src={phone} alt="phone" />
             </div>
         </div>

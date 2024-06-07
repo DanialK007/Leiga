@@ -37,19 +37,19 @@ const MyCaro = () => (
     <>
         <div className="text-3xl lg:text-[2.5rem] text-center font-semibold lg:px-10">Trusted by 4,000 <Span>clients world wide</Span></div>
         <div className="p-10 lg:p-20">
-            <Fader>
             <div className="grid lg:grid-cols-3 gap-8 py-10">
                 {
                     Companies.map((company, index) => (
+                        <Fader>
                         <div key={index} className="bg-indigo-50 py-12 px-10 hover:scale-95 cursor-pointer">
                             <img src={company.image} alt="" className="h-8"/>
                             <div className="text-[1.5rem] font-semibold py-5">"{company.quote}"</div>
                             <div className="">{company.name}, <Span>{company.role}</Span></div>
                         </div>
+                        </Fader>
                     ))
                 }
             </div>  
-            </Fader>
         </div>
     </>
 )

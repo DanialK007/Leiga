@@ -17,17 +17,17 @@ const Work = () => (
                 <div className="text-4xl lg:text-6xl">Recent <i>work</i></div>
                 <div className="text-lg lg:text-2xl py-5">Showcase of our <Span>latest endavours.</Span></div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between py-10 h-[600px] lg:h-[800px] lg:py-24">
-                <div className="h-[200px] lg:w-[580px] lg:h-full">
+            <div className="flex flex-col lg:flex-row justify-between py-14 h-[800px] lg:h-[800px] lg:py-24">
+                <div className="h-[300px] lg:w-[580px] lg:h-full">
                     <Fader>
-                        <MyParallax image={img1} className="w-[280px] h-[200px] lg:w-[580px] lg:h-[400px]">
-                            <div className='w-full h-[200px] lg:h-[400px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
+                        <MyParallax image={img1} className="w-[280px] h-[300px] lg:w-[580px] lg:h-[400px]">
+                            <div className='w-full h-[300px] lg:h-[400px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
                                 Colourfull Journey
                             </div>
                         </MyParallax>
                     </Fader>
                 </div>
-                <div className="h-[200px] lg:w-[500px] lg:h-full flex justify-end lg:items-end">
+                <div className="h-[300px] lg:w-[500px] lg:h-full flex justify-end lg:items-end">
                     <Fader>
                         <MyParallax image={img2} className="w-[300px] h-[300px] lg:w-[580px] lg:h-[400px]">
                             <div className='w-full h-[300px] lg:h-[400px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
@@ -37,27 +37,27 @@ const Work = () => (
                     </Fader>
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between h-[700px] lg:h-[800px] py-24">
-                <div className="h-[200px] lg:w-[450px] lg:h-full lg:flex items-end">
+            <div className="flex flex-col lg:flex-row justify-between h-[800px] lg:h-[800px] py-14 lg:py-24">
+                <div className="h-[300px] lg:w-[450px] lg:h-full lg:flex items-end">
                     <Fader>
-                        <MyParallax image={img4} className="h-[200px] w-[300px] lg:w-[460px] lg:h-[400px]">
-                            <div className='w-full h-[200px] lg:h-[300px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-5xl flex items-center justify-center z-20'>
+                        <MyParallax image={img4} className="h-[300px] w-[300px] lg:w-[520px] lg:h-[350px]">
+                            <div className='w-full h-[300px] lg:h-[350px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-5xl flex items-center justify-center z-20'>
                             Imiginary Realms
                             </div>
                         </MyParallax>
                     </Fader>
                 </div>
-                <div className=" h-[200px] lg:w-[620px] lg:h-full flex justify-end lg:block">
+                <div className=" h-[300px] lg:w-[620px] lg:h-full flex justify-end lg:block">
                     <Fader>
-                        <MyParallax image={img3} className="h-[200px] w-[300px] lg:w-[650px] lg:h-[420px]">
-                            <div className='w-full h-[200px] lg:h-[420px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
+                        <MyParallax image={img3} className="h-[300px] w-[300px] lg:w-[700px] lg:h-[420px]">
+                            <div className='w-full h-[300px] lg:h-[420px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
                                 Playful Strokes
                             </div>
                         </MyParallax>
                     </Fader>
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between items-center py-10 h-[400px] lg:h-[340px] lg:lg:h-[800px] lg:p-32">
+            <div className="flex flex-col lg:flex-row justify-center items-center py-10 h-[400px] lg:pb-40 lg:h-[800px]">
                 <Fader>
                     <MyParallax image={img5} className="w-[320px] h-[300px] lg:w-[1000px] lg:h-[600px]">
                         <div className='w-full h-[300px] lg:h-[600px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-8xl flex items-center justify-center z-20'>

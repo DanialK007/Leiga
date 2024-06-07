@@ -20,7 +20,7 @@ const Hero = () => (
                     <Button>Send a message</Button>
                     </div>
                 </div>
-                <div className="flex items-center justify-center lg:pt-20">
+                <div className="flex items-center justify-center px-5 lg:pt-20">
                     {/* <img src={heroImg} alt='Image' className="h-[500px] w-[500px] introAnimation" /> */}
                     <Rotator>
                         <div className='flex items-center justify-center'>
