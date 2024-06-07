@@ -7,6 +7,10 @@
     transition: 500ms ease-out;
 }
 
+i{
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
 @keyframes spin {
     to {
         transform: rotate(360deg);

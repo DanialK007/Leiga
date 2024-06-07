@@ -56,7 +56,9 @@ const Companies = () => (
             {/* <Fader> */}
                 <div className='flex flex-col justify-center'>
                     <div className='text-[2rem] font-semibold pb-8 lg:pb-16'>Check out our range of social media <Span>marketing options.</Span></div>
+                    <div className='flex w-full justify-start'>
                     <Button>Learn More</Button>
+                    </div>
                 </div>
             {/* </Fader> */}
             <Rotator>
