@@ -38,19 +38,19 @@ const images = [
 const WorkHero = () => (
     <>
         <BlurBack>
-            <div className="w-full h-full flex items-center justify-center text-center text-8xl font-semibold">
+            <div className="w-full h-full flex items-center justify-center text-center text-6xl lg:text-8xl font-semibold">
                 <Fader>
-                Latest <i className="ps-1">Work</i>
+                Latest <i>Work</i>
                 </Fader>
             </div>
         </BlurBack>
-        <div className="max-w-screen-xl mx-auto px-10 pt-20">
+        <div className="max-w-screen-xl mx-auto px-10 py-20">
             <div className="grid lg:grid-cols-2 gap-5">
                 {
                     images.map((work, index) => (
-                        <div key={index}>
+                        <div key={index} className="">
                         <Fader>
-                            <MyParallax image={work.image} className="w-[280px] h-[200px] lg:w-[580px] lg:h-[400px]">
+                            <MyParallax image={work.image} className="w-[80vw] h-[200px] lg:w-[580px] lg:h-[400px]">
                                 {/* <img src={image} alt="" /> */}
                                 <div className='w-full h-[200px] lg:h-[400px] absolute top-0 right-0 opacity-0 hover:opacity-100 duration-300 font-semibold text-white lg:text-6xl flex items-center justify-center z-20'>
                                     {work.title}

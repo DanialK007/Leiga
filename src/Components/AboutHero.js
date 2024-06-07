@@ -6,9 +6,9 @@ import Fader from "../Components/Fader";
 const AboutHero = () => (
     <>
         <BlurBack>
-            <div className="w-full h-full flex items-center justify-center text-center text-8xl font-semibold">
+            <div className="w-full h-full flex items-center justify-center text-center text-6xl lg:text-8xl font-semibold">
                 <Fader>
-                About <i className="ps-5">Us</i>
+                About <i>Us</i>
                 </Fader>
             </div>
         </BlurBack>
@@ -16,7 +16,7 @@ const AboutHero = () => (
             <Fader>
             <img src={image} className="w-full" />
             </Fader>
-            <div className="text-center max-w-screen-md mx-auto px-10 py-20">
+            <div className="text-center max-w-screen-md mx-auto lg:px-10 py-10 lg:py-20">
                 <Fader>
                     <div className="text-4xl font-semibold ">About Us</div>
                     <div className="text-2xl font-semibold opacity-80 pt-8">Kebora and John Smith, the visionary founders behind Leiga, were struck by a realization — the world was lacking creativity; an absence of design aesthetics, a play — it — safe approach by brands, and a dire need for innovation and beauty.</div>

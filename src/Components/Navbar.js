@@ -19,7 +19,7 @@ const Navbar = () => {
                     <img src={MenuImg} alt="Menu" className="w-20 h-20 animate-spinSlow" />
                 </button>
             </nav>
-            <ul className={`fixed top-0 right-0 w-full h-full bg-white flex items-center justify-center flex-col text-center text-5xl font-bold uppercase gap-y-10 shadow-lg p-4 z-40 transform transition-transform duration-500 ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}`}>
+            <ul className={`fixed top-0 right-0 w-full h-full bg-white flex items-center justify-center flex-col text-center text-3xl lg:text-5xl font-bold uppercase gap-y-10 shadow-lg p-4 z-40 transform transition-transform duration-500 ${isMenuOpen ? 'translate-y-0' : 'translate-y-full'}`}>
                 <Link to="/" className={`py-2 hover:tracking-wider duration-1000 ease-out ${isMenuOpen ? 'scale-1' : 'scale-0'}`}>Home</Link>
                 <Link to="/about/" className={`py-2 hover:tracking-wider duration-1000 ease-out ${isMenuOpen ? 'scale-1' : 'scale-0'}`}>About</Link>
                 <Link to="/work/" className={`py-2 hover:tracking-wider duration-1000 ease-out ${isMenuOpen ? 'scale-1' : 'scale-0'}`}>Work</Link>

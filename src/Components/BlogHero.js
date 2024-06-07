@@ -29,13 +29,13 @@ const blogs = [
 const WorkHero = () => (
     <>
         <BlurBack>
-            <div className="w-full h-full flex items-center justify-center text-center text-8xl font-semibold">
+            <div className="w-full h-full flex items-center justify-center text-center text-6xl lg:text-8xl font-semibold">
                 <Fader>
                 Our <i className="ps-1">Blogs</i>
                 </Fader>
             </div>
         </BlurBack>
-        <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <div className="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-5 px-10">
             {
                 blogs.map((blog, index) => (
                     <Fader>
